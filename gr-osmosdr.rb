@@ -20,7 +20,7 @@ class GrOsmosdr < Formula
   depends_on "gr-fosphor"
   depends_on "gr-iqbal"
   depends_on "librtlsdr"
-  depends_on "pothosware/pothos/soapysdr"
+  #depends_on "pothosware/pothos/soapysdr"
 
   def install
     ENV["CHEETAH_INSTALL_WITHOUT_SETUPTOOLS"] = "1"

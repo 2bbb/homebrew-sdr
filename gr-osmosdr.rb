@@ -2,10 +2,10 @@ class GrOsmosdr < Formula
   desc "GNU Radio hardware support for OsmoSDR and other devices"
   homepage "http://sdr.osmocom.org/trac/wiki/GrOsmoSDR"
 
-  url "https://gitea.osmocom.org/sdr/gr-osmosdr/archive/v0.2.3.tar.gz"
-  #url "http://git.osmocom.org/gr-osmosdr/snapshot/gr-osmosdr-0.1.4.tar.xz"
-  sha256 "dc36848d6f9ad8c0f11e55939c8ff759b682351a0ca0791b9b3a3ddcaf87e9b6"
-  #sha256 "1945d0d98fd4b600cb082970267ec2041528f13150422419cbd7febe2b622721"
+  #url "https://gitea.osmocom.org/sdr/gr-osmosdr/archive/v0.2.3.tar.gz" #1
+  #url "http://git.osmocom.org/gr-osmosdr/snapshot/gr-osmosdr-0.1.4.tar.xz" #2
+  #sha256 "dc36848d6f9ad8c0f11e55939c8ff759b682351a0ca0791b9b3a3ddcaf87e9b6" #1
+  #sha256 "1945d0d98fd4b600cb082970267ec2041528f13150422419cbd7febe2b622721" #2
   head "git://git.osmocom.org/gr-osmosdr"
 
   #resource "Markdown" do

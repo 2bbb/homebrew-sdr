@@ -21,7 +21,7 @@ class GrOsmosdr < Formula
   depends_on "cmake" => :build
   depends_on "gnuradio"
   depends_on "gr-fosphor"
-  depands_on "pybind11"
+  depends_on "pybind11"
   #depends_on "gr-iqbal"
   depends_on "librtlsdr"
   #depends_on "pothosware/pothos/soapysdr"

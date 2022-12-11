@@ -37,14 +37,19 @@ class GrOsmosdr < Formula
     #end
 
     mkdir "build" do
-      ENV.append "LDFLAGS", "-Wl,-undefined,dynamic_lookup"
+      # ENV.append "LDFLAGS", "-Wl,-undefined,dynamic_lookup"
       # Point Python library to existing path or CMake test will fail.
       args = %W[
-        -DCMAKE_SHARED_LINKER_FLAGS='-Wl,-undefined,dynamic_lookup'
         -DQt5_DIR='#{HOMEBREW_PREFIX}/lib/cmake/Qt5'
-        -DPYTHON_LIBRARY='#{HOMEBREW_PREFIX}/lib/libgnuradio-runtime.dylib'
       ] + std_cmake_args
 
+      #args = %W[
+      #  -DCMAKE_SHARED_LINKER_FLAGS='-Wl,-undefined,dynamic_lookup'
+      #  -DQt5_DIR='#{HOMEBREW_PREFIX}/lib/cmake/Qt5'
+      #  -DPYTHON_LIBRARY='#{HOMEBREW_PREFIX}/lib/libgnuradio-runtime.dylib'
+      #] + std_cmake_args
+      
+      
       system "cmake", "..", *args
       system "make", "install"
     end

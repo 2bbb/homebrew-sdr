@@ -1,6 +1,7 @@
 class GrOsmosdr < Formula
   desc "GNU Radio hardware support for OsmoSDR and other devices"
   homepage "http://sdr.osmocom.org/trac/wiki/GrOsmoSDR"
+
   url "https://gitea.osmocom.org/sdr/gr-osmosdr/archive/v0.2.3.tar.gz"
   #url "http://git.osmocom.org/gr-osmosdr/snapshot/gr-osmosdr-0.1.4.tar.xz"
   sha256 "dc36848d6f9ad8c0f11e55939c8ff759b682351a0ca0791b9b3a3ddcaf87e9b6"
@@ -23,7 +24,7 @@ class GrOsmosdr < Formula
   depands_on "pybind11"
   #depends_on "gr-iqbal"
   depends_on "librtlsdr"
-  depends_on "pothosware/pothos/soapysdr"
+  #depends_on "pothosware/pothos/soapysdr"
 
   def install
     ENV["CHEETAH_INSTALL_WITHOUT_SETUPTOOLS"] = "1"

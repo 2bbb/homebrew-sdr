@@ -6,7 +6,7 @@ class GrOsmosdr < Formula
   #url "http://git.osmocom.org/gr-osmosdr/snapshot/gr-osmosdr-0.1.4.tar.xz" #2
   #sha256 "dc36848d6f9ad8c0f11e55939c8ff759b682351a0ca0791b9b3a3ddcaf87e9b6" #1
   #sha256 "1945d0d98fd4b600cb082970267ec2041528f13150422419cbd7febe2b622721" #2
-  head "https://gitea.osmocom.org/sdr/gr-osmosdr"
+  head "https://gitea.osmocom.org/sdr/gr-osmosdr.git"
 
   #resource "Markdown" do
   #  url "https://files.pythonhosted.org/packages/1d/25/3f6d2cb31ec42ca5bd3bfbea99b63892b735d76e26f20dd2dcc34ffe4f0d/Markdown-2.6.8.tar.gz"

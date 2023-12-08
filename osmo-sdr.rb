@@ -2,7 +2,7 @@ class OsmoSdr < Formula
   homepage "http://osmocom.org"
   url "http://cgit.osmocom.org/osmo-sdr/snapshot/osmo-sdr-0.1.tar.xz"
   sha256 "ac488768ad735dd6ca0ba594643f831e2b62747244da9a233264c11a96bc1f96"
-  head "https://gitea.osmocom.org/sdr/osmo-sdr.git"
+  head "https://gitea.osmocom.org/sdr/osmo-sdr.git.git"
 
   depends_on "cmake" => :build
 

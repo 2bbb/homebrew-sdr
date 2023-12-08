@@ -1,6 +1,6 @@
 class GrFosphor < Formula
   homepage "http://sdr.osmocom.org/trac/wiki/fosphor"
-  head "https://gitea.osmocom.org/sdr/gr-fosphor"
+  head "https://gitea.osmocom.org/sdr/gr-fosphor.git"
 
   option "with-qt", "Build with QT widgets in addition to wxWidgets"
 

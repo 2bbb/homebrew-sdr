@@ -1,6 +1,6 @@
 class GrIqbal < Formula
   homepage "http://www.osmocom.org/"
-  head "https://gitea.osmocom.org/gr-iqbal"
+  head "https://gitea.osmocom.org/gr-iqbal.git"
 
   depends_on "cmake" => :build
 
